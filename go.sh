@@ -31,6 +31,8 @@ elif [[ $ARCH == "aarch64" ]]; then
     DOWNLOAD_LINK="https://github.com/v2fly/v2ray-core/releases/download/${NEW_VER}/v2ray-linux-arm64-v8a.zip"
 elif [[ $ARCH == "x86_64" ]]; then
     DOWNLOAD_LINK="https://github.com/v2fly/v2ray-core/releases/download/${NEW_VER}/v2ray-linux-64.zip"
+elif [[ $ARCH == "i686" ]]; then
+    DOWNLOAD_LINK="https://github.com/v2fly/v2ray-core/releases/download/${NEW_VER}/v2ray-linux-32.zip"
 fi
 VDIS=''
 ZIPFILE="/tmp/v2ray/v2ray.zip"
